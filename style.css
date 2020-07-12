@@ -1,0 +1,32 @@
+#gallery {
+  display: flex;
+  list-style: none;
+  height: 100px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.gallery-img {
+  display: block;
+  width: 200px;
+  height: auto;
+}
+
+.gallery-item {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
